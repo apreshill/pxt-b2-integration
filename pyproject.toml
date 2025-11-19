@@ -2,9 +2,9 @@
 name = "backblaze"
 version = "0.1.0"
 description = "Multimodal Data Processing with Pixeltable and Backblaze B2"
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 dependencies = [
-    "pixeltable",
+    "pixeltable>=0.4.24",
     "google-genai",
     "boto3",
     "openai",
