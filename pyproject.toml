@@ -1,0 +1,19 @@
+[project]
+name = "backblaze"
+version = "0.1.0"
+description = "Multimodal Data Processing with Pixeltable and Backblaze B2"
+requires-python = ">=3.9"
+dependencies = [
+    "pixeltable",
+    "google-genai",
+    "boto3",
+    "openai",
+    "pillow",
+]
+
+[dependency-groups]
+dev = [
+    "jupyter",
+    "ipykernel",
+]
+
